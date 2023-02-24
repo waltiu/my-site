@@ -36,7 +36,7 @@ import { descText } from './constant'
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("https://tu-goss.matrix.jdcloud.com/creative/vcg/1600/171104598.jpg!s600") no-repeat;
+    background: url("~/assets/introduce/me/backImgs/1.jpg") no-repeat;
     background-size: 100% 100%;
 
     .portrait {
@@ -109,6 +109,7 @@ import { descText } from './constant'
         line-height: 1.5;
         width: 76%;
         margin-top: 2rem;
+        color: dimgray;
     }
 
     .site-info {
