@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    >div{
+        :global{
+            .anticon{
+                cursor: pointer;
+                font-size: 20px;
+                &:not(:first-child){
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}

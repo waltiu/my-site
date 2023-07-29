@@ -1,0 +1,12 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "@jd/eslint-config-xz"
+    ],
+    "rules": {
+        "@typescript-eslint/ban-ts-comment":"off"
+    }
+}
